@@ -1,0 +1,61 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'P1 E1 PE1 MS1';
+}
+h1 {font-size: 3.3vw;
+    text-align: center;
+color: darkgray;}
+
+h2{
+    font-size:3vw;
+    color:#660779c2;
+}
+
+body {background-image: url(WhatsApp\ Image\ 2021-08-08\ at\ 18.00.48.jpeg);
+    background-size: cover;
+
+}
+
+.Personal{
+    grid-area: P1;
+    background-color: rgba(248, 112, 146, 0.562);
+    padding: auto;
+    border: 10px solid rgba(236, 124, 124, 0.637);
+    margin: 20px;
+}
+
+.Education{
+    grid-area: E1;
+    background-color: rgba(248, 112, 146, 0.562);
+    padding: auto;
+    border: 10px solid rgba(236, 124, 124, 0.637);
+    margin: 20px;
+}
+
+.ProfessionalExperience{
+    grid-area: PE1;
+    background-color: rgba(248, 112, 146, 0.562);
+    padding: auto;
+    border: 10px solid rgba(236, 124, 124, 0.637);
+    margin: 20px;
+}
+
+.MilitaryService{
+    grid-area: MS1;
+    background-color: rgba(248, 112, 146, 0.562);
+    padding: auto;
+    border: 10px solid rgba(236, 124, 124, 0.637);
+    margin: 20px;
+}
+input[type="text"] {
+    background-color:rgba(252, 251, 249, 0.897);
+    border-radius: 7px;
+    
+}
+input[type="submit"]{
+    background-color:rgba(255, 255, 255, 0.781);
+    border-radius: 7px;
+   
+
+}
