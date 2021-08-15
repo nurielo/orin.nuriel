@@ -1,3 +1,8 @@
+:root{
+    --msgeret:rgba(236, 124, 124, 0.637);
+    --inside:rgba(248, 112, 146, 0.562);
+    --element:rgba(252, 251, 249, 0.897);
+}
 .grid-container{
     display: grid;
     grid-template-areas: 
@@ -19,42 +24,42 @@ body {background-image: url(WhatsApp\ Image\ 2021-08-08\ at\ 18.00.48.jpeg);
 
 .Personal{
     grid-area: P1;
-    background-color: rgba(248, 112, 146, 0.562);
+    background-color: var(--inside);
     padding: auto;
-    border: 10px solid rgba(236, 124, 124, 0.637);
+    border: 10px solid var(--msgeret);
     margin: 20px;
 }
 
 .Education{
     grid-area: E1;
-    background-color: rgba(248, 112, 146, 0.562);
+    background-color: var(--inside);
     padding: auto;
-    border: 10px solid rgba(236, 124, 124, 0.637);
+    border: 10px solid var(--msgeret);
     margin: 20px;
 }
 
 .ProfessionalExperience{
     grid-area: PE1;
-    background-color: rgba(248, 112, 146, 0.562);
+    background-color: var(--inside);
     padding: auto;
-    border: 10px solid rgba(236, 124, 124, 0.637);
+    border: 10px solid var(--msgeret);
     margin: 20px;
 }
 
 .MilitaryService{
     grid-area: MS1;
-    background-color: rgba(248, 112, 146, 0.562);
+    background-color: var(--inside);
     padding: auto;
-    border: 10px solid rgba(236, 124, 124, 0.637);
+    border: 10px solid var(--msgeret);
     margin: 20px;
 }
 input[type="text"] {
-    background-color:rgba(252, 251, 249, 0.897);
+    background-color:var(--element);
     border-radius: 7px;
     
 }
 input[type="submit"]{
-    background-color:rgba(255, 255, 255, 0.781);
+    background-color:rgbavar(--element);
     border-radius: 7px;
    
 
