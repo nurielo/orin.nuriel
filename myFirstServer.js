@@ -1,4 +1,4 @@
-const mysql= require('./db');
+const sql= require('./db');
 const express=require('express');
 const bodyParser = require("body-parser");
 const app=express();
@@ -28,7 +28,7 @@ app.get("/contact",function(req,res){
 
 
 // set port, listen for requests
-app.listen(3306, () => {
+app.listen(3000, () => {
 console.log("Server is running on port 3000."
 );
 });
