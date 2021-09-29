@@ -1,0 +1,88 @@
+:root{
+    --msgeret:rgba(236, 124, 124, 0.637);
+    --inside:rgba(248, 112, 146, 0.562);
+    --element:rgba(252, 251, 249, 0.897);
+    --titles: rgba(69, 7, 110, 0.897);
+}
+
+.grid-container div{
+    width: 270px;
+    height: 50px;
+    animation-name: CVTitles ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes CVTitles {
+    
+    50% {background-color: white;}
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'P1 E1 PE1 MS1';
+}
+
+h4{font-size: 1.5vw;
+    text-align: center;
+color: var(--titles);
+
+}
+h1 {font-size: 3.3vw;
+    text-align: center;
+color: darkgray;}
+
+h2{
+    font-size:3vw;
+    color:#660779c2;
+}
+
+body {background-image: url(WhatsApp\ Image\ 2021-08-08\ at\ 18.00.48.jpeg);
+    background-size: cover;
+
+}
+
+.Personal{
+    grid-area: P1;
+    background-color: var(--inside);
+    padding: auto;
+    border: 10px solid var(--msgeret);
+    margin: 20px;
+}
+
+.Education{
+    grid-area: E1;
+    background-color: var(--inside);
+    padding: auto;
+    border: 10px solid var(--msgeret);
+    margin: 20px;
+}
+
+.ProfessionalExperience{
+    grid-area: PE1;
+    background-color: var(--inside);
+    padding: auto;
+    border: 10px solid var(--msgeret);
+    margin: 20px;
+}
+
+.MilitaryService{
+    grid-area: MS1;
+    background-color: var(--inside);
+    padding: auto;
+    border: 10px solid var(--msgeret);
+    margin: 20px;
+}
+input[type="text"] {
+    background-color:var(--element);
+    border-radius: 7px;
+    
+}
+input[type="submit"]{
+    background-color:rgbavar(--element);
+    border-radius: 7px;
+   
+
+}
